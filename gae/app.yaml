@@ -1,0 +1,14 @@
+application: your_app_name
+version: your_app_version
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: .*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.1"
