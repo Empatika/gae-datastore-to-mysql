@@ -16,7 +16,7 @@
 #
 
 import webapp2
-import RecentDataHandler
+from datafetcher import RecentDataHandler
 
     
 app = webapp2.WSGIApplication([
